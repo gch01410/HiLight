@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <link href='stylesheets/HiLight.css' rel='stylesheet' type='text/css' media='all'>
+    <meta name='viewport' content='width=device-width'>
+    <title>Hi-Light</title>
+    <link rel='shortcut icon' href='https://test-ee06b.firebaseapp.com/favicon.ico' type='image/x-con'/>
+    <link rel='apple-touch-icon' href='images/icon.png'/>
+</head>
+<body>
+
+<div id='container'>
+    <div id='menuBar' style='text-align: center' >
+        <img class='menuBarLeft' id='menuBarImg' src='images/menu@5x.png'>
+        <img class='menuBarLeft' id='unActiveMenuBarImg' src='images/menu@5x.png'>
+        <img class='menuBarLeft' id='menuBarCancelImg' src='images/exit@5x.png'>
+        <img class='menuBarLeft' id='menuBarSignInBackToMain' src='images/back@5x.png'>
+        <img class='menuBarLeft' id='menuBarBackToSignIn' src='images/back@5x.png'>
+        <img class='menuBarLeft' id='menuBarReservationBackToMain' src='images/back@5x.png'>
+        <img class='menuBarRight' id='unActiveTalk' src='images/unactive@5x.png'>
+        <img class='menuBarRight' id='activeTalk' src='images/acitve@5x.png'>
+        <img class='menuBarRight' id='logoutImg' src='images/logout@5x.png'>
+        <img class='menuBarRight' id='menuBarJoinIn' src='images/joinin@3x.png'>
+    </div>
+
+    <div id='app-name'>
+            <img id='CLRS' src='images/CLRS.png'>
+    </div>
+
+    <div id='blankLayer1'></div>
+    <div id='blankLayer2'></div>
+
+    <div id='reservation-img'>
+        <div class='reservationImg'>
+            <img class='SeatImg' id='blueSeat-1' src='images/seat/empty/clickBig@5x.png' alt=''>
+            <img class='SeatImg' id='redSeat-1' src='images/seat/fulled/clickBig@5x.png' alt=''>
+            <img class='SeatImg' id='clickSeat-1' src='images/seat/click/clickBig@5x.png' alt=''>
+            <img class='SeatImg' id='blueSeat-2' src='images/seat/empty/clickBig%20Copy@5x.png' alt=''>
+            <img class='SeatImg' id='redSeat-2' src='images/seat/fulled/clickBig%20Copy@5x.png' alt=''>
+            <img class='SeatImg' id='clickSeat-2' src='images/seat/click/clickBig%20Copy@5x.png' alt=''>
+            <img class='SeatImg' id='blueSeat-3' src='images/seat/empty/clickBig%20Copy%202@5x.png' alt=''>
+            <img class='SeatImg' id='redSeat-3' src='images/seat/fulled/clickBig%20Copy%202@5x.png' alt=''>
+            <img class='SeatImg' id='clickSeat-3' src='images/seat/click/clickBig%20Copy%202@5x.png' alt=''>
+            <img class='SeatImg' id='blueSeat-4' src='images/seat/empty/clickBig%20Copy%203@5x.png' alt=''>
+            <img class='SeatImg' id='redSeat-4' src='images/seat/fulled/clickBig%20Copy%203@5x.png' alt=''>
+            <img class='SeatImg' id='clickSeat-4' src='images/seat/click/clickBig%20Copy%203@5x.png' alt=''>
+            <img class='SeatImg' id='blueSeat-5' src='images/seat/empty/clickBig%20Copy%204@5x.png' alt=''>
+            <img class='SeatImg' id='redSeat-5' src='images/seat/fulled/clickBig%20Copy%204@5x.png' alt=''>
+            <img class='SeatImg' id='clickSeat-5' src='images/seat/click/clickBig%20Copy%204@5x.png' alt=''>
+        <br>
+            <img class='SeatImg' id='blueSeat-6' src='images/seat/empty/clickBig%20Copy%205@5x.png' alt=''>
+            <img class='SeatImg' id='redSeat-6' src='images/seat/fulled/clickBig%20Copy%205@5x.png' alt=''>
+            <img class='SeatImg' id='clickSeat-6' src='images/seat/click/clickBig%20Copy%205@5x.png' alt=''>
+            <img class='SeatImg' id='blueSeat-7' src='images/seat/empty/clickBig%20Copy%206@5x.png' alt=''>
+            <img class='SeatImg' id='redSeat-7' src='images/seat/fulled/clickBig%20Copy%206@5x.png' alt=''>
+            <img class='SeatImg' id='clickSeat-7' src='images/seat/click/clickBig%20Copy%206@5x.png' alt=''>
+            <img class='SeatImg' id='blueSeat-8' src='images/seat/empty/clickBig%20Copy%207@5x.png' alt=''>
+            <img class='SeatImg' id='redSeat-8' src='images/seat/fulled/clickBig%20Copy%207@5x.png' alt=''>
+            <img class='SeatImg' id='clickSeat-8' src='images/seat/click/clickBig%20Copy%207@5x.png' alt=''>
+            <img class='SeatImg' id='blueSeat-9' src='images/seat/empty/clickBig%20Copy%208@5x.png' alt=''>
+            <img class='SeatImg' id='redSeat-9' src='images/seat/fulled/clickBig%20Copy%208@5x.png' alt=''>
+            <img class='SeatImg' id='clickSeat-9' src='images/seat/click/clickBig%20Copy%208@5x.png' alt=''>
+            <img class='SeatImg' id='blueSeat-10' src='images/seat/empty/clickBig%20Copy%209@5x.png' alt=''>
+            <img class='SeatImg' id='redSeat-10' src='images/seat/fulled/clickBig%20Copy%209@5x.png' alt=''>
+            <img class='SeatImg' id='clickSeat-10' src='images/seat/click/clickBig%20Copy%209@5x.png' alt=''>
+        </div>
+    </div>
+
+    <div id='messageText'>
+        <img class='message' id='messageText1' src='images/01yellow.png'>
+        <img class='message' id='messageText2' src='images/02yellow.png'>
+        <img class='message' id='messageText3' src='images/03yellow.png'>
+        <img class='message' id='messageText4' src='images/04yellow.png'>
+        <img class='message' id='messageText5' src='images/05yellow.png'>
+        <img class='message' id='messageText6' src='images/yellowBox2@5x.png'>
+        <img class='message' id='messageText7' src='images/yellowBox3@5x.png'>
+        <img class='message' id='messageText8' src='images/yellowBox4@5x.png'>
+        <img class='message' id='messageText9' src='images/yellowBox5@5x.png'>
+        <img class='message' id='messageText10' src='images/yellowBox6@5x.png'>
+        <img class='message' id='messageText11' src='images/yellowBox7@5x.png'>
+        <img class='message' id='messageText12' src='images/yellowBox8@5x.png'>
+        <img class='message' id='messageText13' src='images/yellowBox9@5x.png'>
+        <img class='message' id='messageText14' src='images/yellowBox10@5x.png'>
+        <img class='message' id='messageText15' src='images/yellowBox11@5x.png'>
+        <img class='message' id='messageText16' src='images/yellowBox12@5x.png'>
+
+    </div>
+
+    <div class='inputText' id='theNumberOfSeat'>
+        <img class='inputLeftTextImg' id='remainSeatTextImg' src='images/rest_seat.png'/>
+        <img class='inputLeftTextImg' id='choiceSeatTextImg' src='images/select_seat.png'/>
+        <img class='inputLeftTextImg' id='verificationCodeTextImg' src='images/input_code.png'/>
+        <img class='inputLeftTextImg' id='remainTimeTextImg' src='images/rest_time.png'/>
+        <span id='remainNumber'>
+            <span id='remainSeatNumber'>  </span>
+            <span id='remainTimeText'> </span>
+            <input type='text' id='certificationCodeInput' placeholder='code' size='1' maxlength='4'  style='font-size: 40px'/>
+            <input type='text' id='extendCertificationCodeInput' placeholder='code' size='1' maxlength='4'  style='font-size: 40px' />
+        </span>
+    </div>
+
+    <div class='inputText' id='signInEmail'>
+        <img class='inputLeftEmailText' id='signInEmailText' src='images/email.png'/>
+        <input class='inputRightEmailText' type='text' id='signInEmailInput' placeholder='youremail@ajou.ac.kr' size='1' maxlength='30'>
+    </div>
+
+    <div class='inputText' id='signInPassword'>
+        <img class='inputLeftText' id='signInPasswordText' src='images/password.png'/>
+        <input class='inputRightPasswordText' type='password' id='signInPasswordInput' placeholder='*********' size='1' maxlength='20'>
+    </div>
+
+    <div class='inputText' id='joinInEmail'>
+        <img class='inputLeftEmailText' id='joinInEmailText' src='images/email.png'/>
+        <input class='inputRightEmailText' type='text' id='joinInEmailInput' placeholder='myemail@ajou.ac.kr' size='1' maxlength='30'>
+    </div>
+
+    <div class='inputText' id='joinInPassword'>
+        <img class='inputLeftText' id='joinInPasswordText' src='images/password.png'/>
+        <input class='inputRightPasswordText' type='password' id='joinInPasswordInput' placeholder='*******' size='1' maxlength='20'>
+    </div>
+
+    <div class='inputText' id='joinInRePassword'>
+        <img class='inputLeftText' id='joinInRePasswordText' src='images/password_check.png'/>
+        <input class='inputRightPasswordText' type='password' id='joinInRePasswordInput' placeholder='*******' size='1' maxlength='20'>
+    </div>
+
+    <div id='button'>
+        <img class='activeMainButton' id='loginButton' src='images/signin_on.png'/>
+        <img class='unActiveMainButton' id='nonLoginButton' src='images/signin_off.png'/>
+        <img class='activeMainButton' id='secondLoginButton' src='images/signin_on.png'>
+        <img class='activeMainButton' id='joinInButton' src='images/joinin_on@5x.png'>
+        <img class='activeMainButton' id='firstReservationButton' src='images/seat_reservation_on.png'>
+        <img class='unActiveMainButton' id='nonReservationButton' src='images/seat_reservation_off.png'>
+        <img class='activeMainButton' id='secondReservationButton' src='images/seat_reservation_on.png'>
+        <img class='unActiveMainButton' id='nonCertificationButton' src='images/verification_check_off.png'>
+        <img class='activeMainButton' id='certificationButton' src='images/verification_check.png'>
+        <img class='activeSubButton' id='seatReturnButton' src='images/seat_return.png'>
+        <img class='activeMainButton' id='extendCertificationButton' src='images/verification_check.png'>
+        <span id='seatExtendImg'>
+            <img class='unActiveSubButton' id='nonSeatExtendButton' src='images/seat_extend_off.png'>
+            <img class='activeSubButton' id='seatExtendButton' src='images/seat_extend.png'>
+        </span>
+        <img class='activeSubButton' id='returnButton' src='images/return.png'>
+        <img class='activeSubButton' id='returnCancelButton' src='images/cancel.png'>
+    </div>
+</div>
+
+
+    <script src='https://www.gstatic.com/firebasejs/4.12.1/firebase-app.js'></script>
+    <script src='https://www.gstatic.com/firebasejs/4.12.1/firebase.js'></script>
+    <script src='https://www.gstatic.com/firebasejs/4.12.1/firebase-auth.js'></script>
+    <script src='https://www.gstatic.com/firebasejs/4.12.1/firebase-database.js'></script>
+
+    <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: 'AIzaSyD33AeiBbx_cYa0WLUyMyWZEqpF1A08Bq0',
+            authDomain: 'test-ee06b.firebaseapp.com',
+            databaseURL: 'https://test-ee06b.firebaseio.com',
+            projectId: 'test-ee06b',
+            storageBucket: 'test-ee06b.appspot.com',
+            messagingSenderId: '481564981210'
+        };
+        firebase.initializeApp(config);
+    </script>
+</body>
+<script src="javascripts/main.js"></script>
+<script src='javascripts/Init.js'></script>
+<script src='javascripts/menuBar.js'></script>
+<script src="javascripts/remainSeatNumber.js"></script>
+<script src="javascripts/remainTime.js"></script>
+<script src='javascripts/reservationSeat.js'></script>
+<script src="javascripts/returnSeat.js"></script>
+<script src="javascripts/verifiedSeat.js"></script>
+<script src='javascripts/EmailSignIn.js'></script>
+<script src="javascripts/extendTime.js"></script>
+<script src="javascripts/getInfo.js"></script>
+</html>

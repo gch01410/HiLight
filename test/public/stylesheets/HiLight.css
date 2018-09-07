@@ -1,0 +1,209 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1em;
+    font-family: Arial, sans-serif;
+}
+
+input{
+    border: none;
+    outline: none;
+    color: #08459c;
+    text-align: right;
+    display: none;
+}
+
+#container{
+    width: 360px;
+    height: 640px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#menuBar {
+    height: 6.3%;
+    margin: 6.3% 11.11% 6.3% 11.11%;
+}
+
+.menuBarLeft {
+    float: left;
+    width: 40px;
+    height: 40px;
+    display: none;
+}
+.menuBarRight {
+    float: right;
+    width: 40px;
+    height: 40px;
+    display: none;
+}
+
+#logoutImg, #menuBarJoinIn{
+    float: right;
+    width: 80px;
+    height: 40px;
+}
+
+#certificationCodeInput, #extendCertificationCodeInput{
+    float: right;
+    margin-top: -9%;
+    width: 90%;
+}
+
+#app-name {
+    height: 48.8%;
+    margin-left: 11.1%;
+    margin-right: 11.1%;
+    line-height: 1.37;
+    letter-spacing: normal;
+    display: none;
+}
+
+#CLRS{
+    height: 50%;
+    margin-top: 7.58%
+}
+
+#blankLayer1{
+    display: none;
+    height: 36.3%;
+}
+
+#blankLayer2{
+    display: none;
+    height: 23.8%;
+}
+
+.inputText{
+    display: none;
+    border-bottom: 1px solid #08459c;
+    height: 12.5%;
+    margin-left: 11.111%;
+    margin-right: 11.111%;
+}
+
+.inputLeftTextImg{
+    display: none;
+    height: 18%;
+    margin-top: 13%;
+}
+
+.inputLeftText{
+    height: 18%;
+    margin-top: 15%;
+}
+
+.inputLeftEmailText{
+    height: 18%;
+    margin-top: 15%;
+}
+
+.inputRightEmailText{
+    text-align: right;
+    font-size: 1.5em;
+    width: 76%;
+    float: right;
+    margin-top: 15%;
+}
+
+.inputRightPasswordText{
+    text-align: right;
+    font-size: 1.5em;
+    width: 55%;
+    float: right;
+    margin-top: 15%;
+}
+
+#remainNumber{
+    text-align: right;
+    font-size: 40px;
+    width: 49%;
+    margin-top: 6.5%;
+    color: #08459c;
+    float: right;
+}
+
+#remainSeatNumber {
+    font-weight: normal;
+    display: none;
+}
+
+#remainTimeText{
+    display: none;
+}
+
+#messageText {
+    height: 8.1%;
+}
+
+.message{
+    height: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    display: none;
+}
+
+#button{
+    height: 20%;
+    margin: 10%;
+    display: inline;
+}
+
+.activeMainButton {
+    width: 77.8%;
+    height: 8%;
+    margin-top: 10%;
+    object-fit: contain;
+    border: none;
+    outline: none;
+    display: none;
+}
+
+.unActiveMainButton{
+    width: 77.8%;
+    height: 8%;
+    margin-top: 10%;
+    object-fit: contain;
+    border: none;
+    outline: none;
+    display: none;
+}
+
+.activeSubButton {
+    width: 38.9%;
+    height: 8%;
+    margin-top: 10%;
+    object-fit: contain;
+    border: none;
+    outline: none;
+    display: none;
+}
+
+.unActiveSubButton{
+    width: 38.9%;
+    height: 8%;
+    margin-top: 10%;
+    object-fit: contain;
+    border: none;
+    outline: none;
+    display: none;
+}
+
+#reservation-img {
+    text-align: center;
+    display: none;
+}
+
+.reservationImg{
+    height: 41.25%;
+    margin-top: 20%;
+}
+
+.SeatImg {
+    width: 40px;
+    height: 40px;
+    padding: 10px 8px 10px 8px;
+    display: none;
+}
