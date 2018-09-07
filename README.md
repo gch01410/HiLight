@@ -9,9 +9,18 @@
  
  # 기능 소개
  현재 잔여좌석을 확인<br>
- <img src="https://github.com/gch01410/HiLight/tree/master/test/public/images/main.PNG"></img>
+ <img src="https://github.com/gch01410/HiLight/blob/master/test/public/images/main.PNG"></img><br>
+ 
  회원가입은 이메일형식(@ajou.ac.kr)의 ID와 비밀번호(6자리이상)으로 가입<br>
  회원가입에 적은 이메일주소의 메일함에서 회원가입 메일을 확인하면 회원가입 완료<br>
+ 
  로그인 후 원하는 좌석을 선택하고 아두이노 LED판에 표시되는 4자리 인증번호를 입력하여 좌석등록(현재 6187로 고정)<br>
+ <img src="https://github.com/gch01410/HiLight/blob/master/test/public/images/seat.PNG"></img><br>
+ <img src="https://github.com/gch01410/HiLight/blob/master/test/public/images/code.PNG"></img><br>
+ 
  좌석 대여시간(현재 1분)이 특정 시간(현재 50초)미만으로 되면 좌석연장 가능<br>
- 좌석 대여시간이 만료되면 자동으로 좌석반납
+ 좌석 대여시간이 만료되면 자동으로 좌석반납<br>
+<img src="https://github.com/gch01410/HiLight/blob/master/test/public/images/register.PNG"></img><br>
+
+위쪽 오른쪽에 있는 Talk을 누르면 Hi-Light 플러스 친구로 이동<br>
+<img src="https://github.com/gch01410/HiLight/blob/master/test/public/images/plus.jpg"></img>
