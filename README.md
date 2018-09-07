@@ -15,8 +15,10 @@
  회원가입에 적은 이메일주소의 메일함에서 회원가입 메일을 확인하면 회원가입 완료<br>
  
  로그인 후 원하는 좌석을 선택하고 아두이노 LED판에 표시되는 4자리 인증번호를 입력하여 좌석등록(현재 6187로 고정)<br>
+ <div>
  <img src="https://github.com/gch01410/HiLight/blob/master/test/public/images/seat.PNG" width="70%" height="70%"><br>
  <img src="https://github.com/gch01410/HiLight/blob/master/test/public/images/code.PNG" width="70%" height="70%"><br>
+ </div>
  
  좌석 대여시간(현재 1분)이 특정 시간(현재 50초)미만으로 되면 좌석연장 가능<br>
  좌석 대여시간이 만료되면 자동으로 좌석반납<br>
